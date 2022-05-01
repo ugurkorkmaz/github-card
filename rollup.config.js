@@ -36,7 +36,7 @@ export default {
 		sourcemap: false, 
 		format: 'iife',
 		name: 'app',
-		file: 'public/app.js'
+		file: 'dist/github-card.js'
 	},
 	plugins: [
 		svelte({
