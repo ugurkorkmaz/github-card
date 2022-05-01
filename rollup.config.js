@@ -33,7 +33,7 @@ function serve() {
 export default {
 	input: 'src/main.js',
 	output: {
-		sourcemap: true,
+		sourcemap: false, 
 		format: 'iife',
 		name: 'app',
 		file: 'public/app.js'
@@ -44,7 +44,6 @@ export default {
 				dev: !production
 			},
 			preprocess: sveltePreprocess({
-				sourceMap: !production,
 				postcss: true,
 			}),
 
